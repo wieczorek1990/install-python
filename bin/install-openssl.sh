@@ -6,7 +6,7 @@ source "${PWD}/bin/options.sh"
 mkdir -p ./Sources/
 
 cd ./Sources/
-git clone --depth 1 https://github.com/openssl/openssl.git
+git clone --depth 1 git@github.com:openssl/openssl.git
 
 cd ./openssl/ &&\
 ./Configure --prefix=$prefix &&\
