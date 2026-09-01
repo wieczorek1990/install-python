@@ -4,4 +4,4 @@
 set -oux pipefail
 
 cpu_count=$(sysctl -n hw.ncpu)
-prefix=/opt
+prefix=~/.local
